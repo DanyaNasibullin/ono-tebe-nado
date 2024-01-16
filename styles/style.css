@@ -8,13 +8,14 @@ a {
     line-height: normal;
     text-decoration: underline;
     text-underline-offset: 4px;
+    line-height: 24.5px
     
   }
   
   .header_list {
     display: grid;
     grid-template-columns: 2fr auto 2fr;
-    padding: 92px 24px 96px;
+    padding: 95px 50px 91px;
     align-items: center;
   }
   
@@ -51,8 +52,8 @@ a {
   
   .jambotron {
     font-family: Raleway, sans-serif;
-    width: 100%;
-    min-height: 757px;
+    min-width: 100%;
+    height: 757px;
     position: relative;
     background-image: url(../images/lotus-flower.png);
     background-position: center;
@@ -70,11 +71,11 @@ a {
     width: 100%;
   }
   
-  .cover__title {
+  .cover_title {
     position: relative;
     display: flex;
     flex-direction: column;
-    padding: 165px 50px 237px;
+    padding: 170px 50px 143px;
     gap: 20px;
     color: #fff;
     font-size: 100px;
@@ -116,7 +117,7 @@ a {
     justify-content: flex-end;
     position: relative;
     gap: 79px;
-    padding: 147px 79px 62px 78px;
+    padding-right: 50px;
       
   }
   
@@ -129,7 +130,7 @@ a {
     font-weight: 400;
     line-height: 28px;
     text-transform: uppercase;
-    word-spacing: 13px;
+    word-spacing: 18px;
     }
   
   .rectangle {
@@ -143,7 +144,6 @@ a {
     line-height: normal;
     text-transform: uppercase;
     padding: 12px 32px;
-    text-transform: uppercase;
     background: transparent;
     margin-top: -12px;
   }
@@ -219,14 +219,13 @@ a {
     width: 254px;
     height: 110px;
     flex-shrink: 0;
-    margin-bottom: -6px;
   }
   
   .card_text {
     color: #fff;
     z-index: 1;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 23px;
     width: 254px;
   }
   
@@ -258,9 +257,7 @@ a {
   .about {
     display: grid;
     grid-template-columns: 383px 1fr;
-    gap: 72px;
-    padding-top: 146px;
-    padding-left: 24px;
+    padding-top: 184px;
     padding-right: 24px;
   }
   
@@ -299,8 +296,8 @@ a {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    padding-bottom: 24px;
+    line-height: 25px;
+    padding-bottom: 22px;
   }
   
   .end_text {
@@ -308,9 +305,10 @@ a {
   }
   
   .footer {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
     justify-content: space-between;
-    padding: 180px 50px 88px 50px;
+    padding: 172px 50px 88px 50px;
     
   }
   
@@ -321,7 +319,7 @@ a {
   
   .footer_rignt {
     display: flex;
-    align-items: flex-start;
+    justify-content: flex-end;
     gap: 48px;
     list-style: none;
   }
